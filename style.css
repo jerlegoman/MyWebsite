@@ -1,3 +1,8 @@
 .CourierNew{
     font-family: 'Courier New', Courier, monospace;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
