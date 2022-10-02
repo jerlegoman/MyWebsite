@@ -1,7 +1,9 @@
-// As with JSON, use the Fetch API & ES6
-fetch('/p2.txt')
-    .then(response => response.text())
-    .then(data => {
-        // Do something with your data
-        console.log(data);
-    });
+//const fs = require("fs");
+const p2 = document.querySelector("#p2");
+//fs.readFile("p2.txt", (err, data) => {
+//    if (err) throw err;
+
+//    console.log(data.toString());
+//    p2.innerHTML = data.toString();
+p2.innerHTML = "hello world";
+//});
