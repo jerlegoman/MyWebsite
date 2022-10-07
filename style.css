@@ -6,3 +6,9 @@
     grid-template-columns: auto auto auto;
     gap: 10px;
 }
+.cropped {
+
+    height: 300px; 
+    object-fit: cover;
+    object-position: 25% 25%; 
+    }
